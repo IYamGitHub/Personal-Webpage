@@ -1,0 +1,56 @@
+@import url('http://fonts.googleapis.com/css2?family=Coda&display=swap');
+
+.Container {
+  background-color: white;
+  height: fit-content;
+  font-family: Coda;
+}
+
+.IntroContainer {
+  background-color: #8BB48D;
+  margin-top: 0.7rem;
+  display: flex;
+  font-size: 1.6rem;
+  color: white;
+}
+.Title {
+  margin: 0;
+  font-size: 2.6rem;
+}
+
+.TextSide {
+  max-width: 50%;
+  margin: 5rem;
+}
+
+.ImageContainer {
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.Octo {
+  height: 16rem;
+  width: 18rem;
+  position: absolute;
+  bottom: 4rem;
+  right: 15%;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .Inner {
+    flex-direction: column;
+  }
+  .Octo {
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.AboutMe {
+  margin: 3rem;
+  background-color: #ffdcd6;
+  padding: 5rem;
+}

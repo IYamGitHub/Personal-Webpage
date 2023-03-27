@@ -1,0 +1,11 @@
+@import url('http://fonts.googleapis.com/css2?family=Coda&display=swap');
+
+.footerContainer {
+  font-family: "Coda";
+  background-color: #C7DFC5;
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+  align-items: center;
+  box-shadow: 0 -5px 5px -5px #999
+}
