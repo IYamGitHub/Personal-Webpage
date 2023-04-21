@@ -1,59 +1,130 @@
 @import url('http://fonts.googleapis.com/css2?family=Coda&display=swap');
 
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.para {
-  font-family: Coda;
-  font-weight: 800;
-} */
-
 .Container {
   margin: 0;
   font-family: "Coda";
+  padding: 4rem;
+  min-height: calc(100vh - 16rem);
 }
 
-.NavBar {
-  background-color: #C7DFC5;
-  padding: 1.4rem 3rem;
-}
-
-.Name {
+.subheader {
+  font-size: 1.2rem;
   margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.headerContainer {
+  background-color: #8BB48D;
+  margin: 0 1rem;
+  display: flex;
+  padding: 2rem 5rem;
+  color: white;
+}
+
+.header {
+  margin: auto 2rem;
+}
+.header > h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.header > h3 {
   font-size: 1.6rem;
+  margin: 0;
+}
+
+.OctoWorking {
+  height: 12rem;
+  width: auto;
+}
+
+.experience {
+  display: flex;
+}
+
+.titleContainer{
+  display: flex;
+  margin-top: 4rem;
+}
+
+.logo {
+  height: 8rem;
+  margin: 0 1rem;
+}
+
+.titleText {
+  margin: auto 0;
+}
+
+.title {
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.position {
+  font-size: 1.15rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: grey;
+}
+
+.MuiAccordionSummary-root {
+  background-color: #8BB48D !important;
+  color: white !important;
+  font-family: "Coda" !important;
+  justify-content: space-between;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  font-size: 1rem !important;
+  font-family: "Coda" !important;
+}
+
+.stories {
+  margin: 1rem;
+  width: 50%;
+}
+
+.link {
+  color: #3853e0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .experience {
+    flex-direction: column;
+  }
+  .stories{
+    width: auto;
+  }
+  .headerContainer {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  .header > h3 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .OctoWorking {
+    height: auto;
+    width: 10rem;
+    margin: 0 1rem 0 auto;
+  }
+}
+
+@media (max-width: 525px) {
+  .Container {
+    padding: 1.5rem;
+  }
+  .logo {
+    width: 0;
+  }
+  .title {
+    margin-left: 1rem;
+  }  
+  .position {
+    margin-left: 1rem;
+  }
 }

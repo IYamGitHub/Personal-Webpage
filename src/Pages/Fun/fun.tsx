@@ -1,6 +1,4 @@
 import * as React from 'react';
-import Navbar from '../../Components/NavBar/navbar';
-import logo from '../../logo.svg';
 // import './fun.css';
 
 

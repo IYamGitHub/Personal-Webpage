@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './home.css';
-import OctoHello from '../../Images/octo-hello.png';
+import OctoHello from '../../Images/Octo/octo-hello.png';
 
 
 function Home() {
