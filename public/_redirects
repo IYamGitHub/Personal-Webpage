@@ -1,0 +1,7 @@
+# Redirects from what the browser requests to what we serve
+/                /career
+/                /fun
+/career          /
+/career          /fun
+/fun             /
+/fun             /career
