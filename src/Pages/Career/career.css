@@ -1,8 +1,5 @@
-@import url('http://fonts.googleapis.com/css2?family=Coda&display=swap');
-
 .Container {
   margin: 0;
-  font-family: "Coda";
   padding: 4rem;
   min-height: calc(100vh - 16rem);
 }
@@ -59,7 +56,7 @@
 .title {
   font-size: 1.6rem;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
 }
 
 .position {
@@ -69,16 +66,10 @@
   color: grey;
 }
 
+/* best to avoid !important but need to overwrite library styles*/
 .MuiAccordionSummary-root {
   background-color: #8BB48D !important;
   color: white !important;
-  font-family: "Coda" !important;
-  justify-content: space-between;
-}
-
-.css-ahj2mt-MuiTypography-root {
-  font-size: 1rem !important;
-  font-family: "Coda" !important;
 }
 
 .stories {
@@ -118,8 +109,12 @@
   .Container {
     padding: 1.5rem;
   }
+  .titleContainer {
+    margin-top: 1rem;
+  }
   .logo {
     width: 0;
+    margin: 0;
   }
   .title {
     margin-left: 1rem;

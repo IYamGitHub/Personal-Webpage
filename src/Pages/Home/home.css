@@ -1,18 +1,17 @@
-@import url('http://fonts.googleapis.com/css2?family=Coda&display=swap');
-
 .Container {
   background-color: white;
   height: fit-content;
-  font-family: Coda;
 }
 
-.IntroContainer {
+.GreenContainer {
   background-color: #8BB48D;
   margin-top: 0.7rem;
   display: flex;
   font-size: 1.6rem;
   color: white;
+  padding: 5rem;
 }
+
 .Title {
   margin: 0;
   font-size: 2.6rem;
@@ -20,7 +19,6 @@
 
 .TextSide {
   max-width: 50%;
-  margin: 5rem;
 }
 
 .ImageContainer {
@@ -33,7 +31,7 @@
 .Octo {
   height: 14rem;
   width: 16rem;
-  margin: auto auto 3rem auto;
+  margin: auto;
 }
 
 .AboutMe {
@@ -42,28 +40,32 @@
   padding: 5rem;
 }
 
+.bodyText {
+  font-size: 1.25rem;
+  line-height: 1.3rem;
+}
+
 @media only screen and (max-width: 700px) {
-  .IntroContainer {
+  .GreenContainer {
     flex-direction: column;
     font-size: 1rem;
+    padding: 2rem;
   }
   .TextSide {
     margin: 2rem 2rem 0rem 2rem ;
     max-width: 100%;
   }
   .ImageContainer {
-    padding: 1rem 2rem;
-    margin-left: auto;
+    padding: 1rem 2rem 0;
     text-align: right;
+    width: 100%;
   }
   .Octo {
-    position: relative;
-    bottom: 0;
     width: 14rem;
     height: 12rem;
   }
   .AboutMe {
     padding: 2rem;
-    margin: 2rem;
+    margin: 2rem 1rem;
   }
 }

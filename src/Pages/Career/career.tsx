@@ -74,7 +74,7 @@ function Career() {
           <img src={Alignable} alt='Alignable' className='logo'/>
           <div className='titleText'>
             <h2 className='title'>Alignable</h2>
-            <h5 className='position'>Upcoming Full Stack Developer Co-op</h5>
+            <h5 className='position'>Full Stack Developer Co-op</h5>
             <h5 className='position'>Remote | May-December 2023</h5>
           </div>
         </div>
