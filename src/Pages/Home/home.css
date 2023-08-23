@@ -12,11 +12,6 @@
   padding: 5rem;
 }
 
-.Title {
-  margin: 0;
-  font-size: 2.6rem;
-}
-
 .TextSide {
   max-width: 50%;
 }
@@ -38,11 +33,6 @@
   margin: 3rem;
   background-color: #ffdcd6;
   padding: 5rem;
-}
-
-.bodyText {
-  font-size: 1.25rem;
-  line-height: 1.3rem;
 }
 
 @media only screen and (max-width: 700px) {

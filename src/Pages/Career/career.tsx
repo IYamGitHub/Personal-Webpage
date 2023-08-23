@@ -65,7 +65,7 @@ function Career() {
       <div className='headerContainer'>
         <img src={OctoWorking} alt='My Octo' className='OctoWorking'/>
         <div className='header'>
-          <h1 >My Career Experiences</h1>
+          <h1 className='Title'>My Career Experiences</h1>
           <h3>Learn more about some of the work I completed at each job!</h3>
         </div>
       </div>

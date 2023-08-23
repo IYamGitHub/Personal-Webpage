@@ -5,3 +5,15 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.Title {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 2.6rem;
+  }
+
+.bodyText {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin: 0;
+}
